@@ -1,0 +1,17 @@
+.header {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    border-style:groove;
+    width: 100%;
+    gap: 33%;
+    height: 100px;
+    justify-content: center;
+    font-size: x-large;
+    border-radius: 50px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, red, yellow);
+}
+ul{
+    padding: 0;
+margin: 0;}
