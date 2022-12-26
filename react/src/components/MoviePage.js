@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel } from '@trendyol-js/react-carousel';
+import { NavLink} from 'react-router-dom';
 
 
 function MoviePage(props) {
@@ -20,6 +20,7 @@ function MoviePage(props) {
         
         <h5 className="font-weight-light">Language: {props.movie.original_language}</h5>
         <h5 className="font-weight-light">Release date: {props.movie.release_date}</h5>
+        <li className='li-button'><NavLink to={`/`}>Home page</NavLink></li>
       </div>
 			
 		</div>

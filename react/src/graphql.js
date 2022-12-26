@@ -2,7 +2,7 @@ import React from 'react'
 
 function graphql() {
   return (
-    <div>graphql</div>
+    <h1>graphql for client under construction</h1>
   )
 }
 

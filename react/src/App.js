@@ -17,8 +17,10 @@ function App() {
     dataRecently.push(data[index]);
     setLatest(dataRecently)
     setMovie(data[index])
-    console.log(latestView)
-    
+    console.log(latestView);
+    if(latestView.length === 6){
+      latestView.splice(1,1);
+    }
   }
   
   const getDataReq = async () => {

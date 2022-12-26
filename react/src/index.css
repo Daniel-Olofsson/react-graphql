@@ -1,6 +1,7 @@
 body{
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(8, 8, 8);
     color: rgb(151, 255, 47);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     
 }
 .block{ display:block;
@@ -25,7 +26,7 @@ body{
 .card-singel{
     border-radius: 25px;
     list-style: none;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px #0000003b;
     padding-bottom: 20px;
     margin: 40px;
     background-color: rgb(0, 0, 0);
@@ -42,4 +43,10 @@ body{
     max-width: 100%;
     height: auto;
     width: auto;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }

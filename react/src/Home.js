@@ -18,8 +18,6 @@ function Home (props) {
 	  }
 
   return (
-    
-
 
     <div className="App">
       <h1>Movies</h1>
@@ -39,15 +37,14 @@ function Home (props) {
         
         
       </div>
-      <h1>Recently viewed</h1>
+      <h1 className="center">Recently viewed</h1>
       <div className="inline-view">
-        
+
         {props.latestView.map((n) => {
           return <img  key={n.id} src={"https://image.tmdb.org/t/p/w500" + n.backdrop_path} alt={n.poster_path}/>
                   
         })}
-        
-        
+      
       </div>
     </div>
   );
